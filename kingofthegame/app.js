@@ -7,8 +7,8 @@ let supabaseClient;
 
 function initSupabase() {
   if (!supabaseClient) {
-    const SUPABASE_URL = 'https://mmgxgalxbnfjgglkvfcv.supabase.co';
-    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Im1tZ3hnYWx4Ym5mamdnbGt2ZmN2Iiwicm9sZSI6ImFub24iLCJpYXQiOjE3NjkyODY3OTMsImV4cCI6MjA4NDg2Mjc5M30.gRNxxL5zPVL6asD8-bZ6F8UZ24c-p1gytPJ1OSevBoY';
+    const SUPABASE_URL = 'https://lypeqqiudvxsgplstbmr.supabase.co';
+    const SUPABASE_ANON_KEY = 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imx5cGVxcWl1ZHZ4c2dwbHN0Ym1yIiwicm9sZSI6ImFub24iLCJpYXQiOjE3NzcyMjQyMzgsImV4cCI6MjA5MjgwMDIzOH0.tfc9on1KY9aNEW4A98mCgPa5jn7LTNNRHu94S_Z7BSU';
     
     supabaseClient = window.supabase.createClient(SUPABASE_URL, SUPABASE_ANON_KEY);
     console.log('✅ Supabase initialized');
